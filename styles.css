@@ -373,7 +373,7 @@ p {color: grey;}
 }
 
 .row2 {
-    background-image: url(/Assets/SWVisionsPoster.jpeg);
+    background-image: url(Assets/SWVisionsPoster.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 700px;
@@ -469,7 +469,7 @@ p {color: grey;}
 }
 
 .columnL1 {
-    background-image: url(/Assets/PosterLeft.jpg);
+    background-image: url(Assets/PosterLeft.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -477,7 +477,7 @@ p {color: grey;}
 }
 
 .columnR1 {
-    background-image: url(/Assets/PosterRight.jpg);
+    background-image: url(Assets/PosterRight.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
