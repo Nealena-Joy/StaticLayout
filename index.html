@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarWars.com | The Office Star Wars Website</title>
+    <link rel="icon" href="./Assets/Vador.png">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>body {background-image: url(./Assets/StarsWallpaper4.jpeg);}   
+    </style>
+</head>
+<script src="starWars.js"></script>
+<body>
+    <div class="wrapper">
+        <section class="header-content">
+            <div class="columns" style="background-image: url(./Assets/StarsWallpaper4.jpeg);">
+
+                <main class="main">
+                    <img src="./Assets/SWLogo2.png" alt="Star Wars" height="90px" width="200px">
+                </main>
+
+                <aside class="sidebar-first">
+                    <ul id="social-links">
+                        <li>
+                            <a target="blank"
+                            href="https://www.facebook.com/StarWarsPH/?brand_redir=169299103121699" 
+                            class="fa fa-facebook"></a>
+                        </li>
+                    <li>
+                        <a target="blank"
+                        href="https://www.instagram.com/starwars/"
+                        class="fa fa-instagram"></a>
+                    </li>
+                    <li>
+                        <a target="blank"
+                        href="https://twitter.com/starwars"
+                        class="fa fa-twitter"></a>
+                    </li>
+                    <li>
+                        <a target="blank"
+                        href="https://www.youtube.com/user/starwars"
+                        class="fa fa-youtube"></a>
+                    </li>
+                    <li class="v-bar"> | </li>
+                    <li>
+                        <a target="blank"
+                        href="https://www.starwarskids.com/"
+                        class="fa fa-kids">KIDS</a>
+                    </li>
+                </ul>
+                </aside>
+                
+                <aside class="sidebar-second">
+                    <form role="search" id="form">
+                        <input type="search" id="query" name="q"
+                         placeholder="Search Star Wars"
+                         aria-label="Search through site content">
+                        <button>
+                          <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+                        </button>
+                    </form>
+                    <br>
+                    <br>
+                    <div class="SSO-container">
+                        <ul class="SSO" style="text-align: right;">
+                            <li href="#login" class="login">LOG IN</li>                
+                            <li class="bars"> // </li>
+                            <li href="#signup" class="signup">SIGN UP</li>li>
+                        </ul>
+                    </div>
+                </aside>
+
+            </div>
+            
+         </section>   
+    </div>
+
+    <div>
+        <nav class="navbar">
+            <p class="nav-space"> </p>
+            <p class="nav-link">NEWS + BLOG</p>
+            <p class="nav-link">VIDEO</p>
+            <p class="nav-link">FILMS</p>
+            <p class="nav-link">SERIES</p>
+            <p class="nav-link">INTERACTIVE</p>
+            <p class="nav-link">COMMUNITY</p>
+            <p class="nav-link">DATABANK</p>
+            <p class="nav-link">DISNEY+</p>
+            <p class="nav-space"> </p>
+        </nav>
+
+        <div class="DisneyLink">
+            <div class="DisneyStream">
+                ALL OF YOUR STAR WARS FAVORITES NOW STREAMING ON DISNEY+
+            </div>
+        </div>
+    </div>
+<!--SLIDE SHOW-->
+    <section class="slideshow">
+        <div class="slide-container">
+            <div class="slides">
+                <div class="mySlides">
+                    <img src="/Assets/Mando.jpg" style="width: 100%; height: 757px">
+                    <div class="text-container">
+                        <p class="title"><i>THE ART OF STAR WARS: THE MANDALORIAN SEASON 2</i> COMING THIS DECEMBER</p>
+                        <p class="info">The new book from Abrams will take<br>fans inside the exciting second season<br>of the hit series.</p>
+                        <button class="Read">READ MORE</button>
+                    </div>
+                </div>
+                <div class="mySlides">
+                    <img src="/Assets/R2D2.jpg" style="width:100%; height: 757px">
+                </div><div class="mySlides">
+                    <img src="/Assets/VadorWallpaper.jpeg" style="width:100%; height: 757px">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>  
+        </div>
+        <!-- SLIDE THUMBNAIL -->
+        <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="Assets/Mando.jpg" style="width: 200px; height: 110px" onclick="currentSlide(1)">
+              <p class="thumb-text">THE ART OF STAR WARS:<BR>THE MANDALORIAN<BR>SEASON 2</BS></p>
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="Assets/R2D2.jpg" style="width: 200px; height: 110px;" onclick="currentSlide(2)">
+              <p class="thumb-text">THE HIGH REPUBLIC<BR>SHOW</p>
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Assets/VadorWallpaper.jpeg" style="width: 200px; height: 110px;" onclick="currentSlide(2)">
+                <p class="thumb-text">STAR WARS: HUNTERS<BR>TRAILER</p>
+              </div>
+    </section>    
+
+    <br>
+    <br>
+
+    <!-- STAR WARS VISION -->    
+    <div>
+        <!-- STAR WARS VISION POSTER & LINKS -->
+        <div class="section2">
+            <div class="row2">
+                <div class="columnV1">
+                    <p class="upperText">7 Visionary Anime Studios</p>
+                    <p class="upperText">9 Original Short Stories From Across The Galaxy</p> 
+                    <img src="/Assets/SWVisionsLogoDisney.png" style="width: 400px; margin-top: 20px;">           
+                    <p class="streamingText">All Episodes Streaming September 22</p>
+                    <br>
+                    <button class="VisionsSU-btn">SIGN UP NOW</button>
+                    <button class="VisionsEX-btn">EXPLORE</button>
+                </div>
+            </div>
+    
+            <!-- FOCUS SECTION -->
+            <div class="row">
+                <div class="columnL1">   <!-- LEFT COLUMNS-->
+                </div>
+                <div class="columnL2">
+                    <p class="h-mark1">== o</p>
+                    <p class="VisionsText">Check Out the Official, Beautiful Star Wars: Visions Poster</p>
+                    <div class="notchtop1"></div>
+                    <div class="notchbottom2"></div>
+                </div>
+                <div class="columnR1">   <!-- RIGHT COLUMNS-->
+                </div>
+                <div class="columnR2">
+                    <p class="h-mark2">== o</p>
+                    <p class="VisionsText">Star Wars: Visions Style Comes to our Galaxy</p>
+                    <div class="notchtop2"></div>
+                    <div class="notchbottom2"></div>
+                </div>
+            </div>
+            <br>
+        </div>
+       
+    </div>
+    <br>
+    <br>
+    <div class="last">
+        <p>BLA BLA BLA</p>
+        <p>BLA BLA BLA</p>
+        <p>BLA BLA BLA</p>
+        <p>BLA BLA BLA</p>
+        <p>BLA BLA BLA</p>
+        <p>BLA BLA BLA</p>
+        <p>BLA BLA BLA</p>
+        <p>BLA BLA BLA</p>
+        <p>BLA BLA BLA</p>
+        <p>BLA BLA BLA</p>
+        <p>BLA BLA BLA</p>
+        <p>BLA BLA BLA</p>
+        <p>BLA BLA BLA</p>
+        <p>BLA BLA BLA</p>
+        <p>BLA BLA BLA</p>
+        <p>BLA BLA BLA</p>
+        <p>BLA BLA BLA</p>
+        <p>BLA BLA BLA</p>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+    </script>              
+</body>
+</html>
