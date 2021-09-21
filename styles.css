@@ -352,7 +352,7 @@ p {color: grey;}
     line-height: 1.5;
 }
 
-.Read {
+.read-btn {
     text-align: center;
     width: 200px;
     background-color: rgb(10, 119, 64);
@@ -362,8 +362,9 @@ p {color: grey;}
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.Read:hover {
-    background-color: green;
+.read-btn:hover {
+    background-color: rgb(21, 139, 80);
+    box-shadow: 0px 15px 20px rgba(3, 3, 3, 0.4);
 }
 
 /* STAR WARS VISION POSTER & LINKS */
