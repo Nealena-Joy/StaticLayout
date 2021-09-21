@@ -362,6 +362,10 @@ p {color: grey;}
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.Read:hover {
+    background-color: green;
+}
+
 /* STAR WARS VISION POSTER & LINKS */
 .section2 {
     position: relative;
